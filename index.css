@@ -1,0 +1,23 @@
+#wrap {
+    margin: 10px;
+}
+
+#game-list {
+    display: flex;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #c1b4ff;
+    background-color: #e0ffc0;
+    height: 250px;
+}
+
+.game-site {
+    margin: auto;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #044417;
+    background-color: #b4bcff;
+    width: 200px;
+    height: 200px;
+    font-size: 1.6rem;
+}
