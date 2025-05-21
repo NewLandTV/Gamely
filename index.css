@@ -2,13 +2,21 @@
     margin: 10px;
 }
 
+#container {
+    margin: 10px;
+    height: 1000px;
+}
+
 #game-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(20, minmax(300px, 250px));
+    grid-template-rows: repeat(5, minmax(300px, 250px));
     border-radius: 25px;
     border-style: solid;
     border-color: #c1b4ff;
     background-color: #e0ffc0;
-    height: 250px;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .game-site {
