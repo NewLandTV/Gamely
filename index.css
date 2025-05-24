@@ -1,12 +1,35 @@
 #wrap {
     margin: 0 auto;
     width: 90%;
-    height: 1000px;
 }
 
 #container {
     margin: 10px;
-    height: 100%;
+    height: 200px;
+}
+
+@media screen and (min-height: 580px) {
+    #container {
+        height: 430px;
+    }
+}
+
+@media screen and (min-height: 810px) {
+    #container {
+        height: 655px;
+    }
+}
+
+@media screen and (min-height: 1040px) {
+    #container {
+        height: 880px;
+    }
+}
+
+@media screen and (min-height: 1270px) {
+    #container {
+        height: 1105px;
+    }
 }
 
 #game-list {
@@ -19,6 +42,7 @@
     border-style: solid;
     border-color: #c1b4ff;
     background-color: #e0ffc0;
+    width: 100%;
     height: 100%;
     overflow-y: auto;
 }
