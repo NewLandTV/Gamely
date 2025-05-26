@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
@@ -10,13 +10,21 @@
 <body>
     <div id="wrap"><!-- 전체 레이아웃 -->
         <div id="header"><!-- header 레이아웃(상단바) -->
-            <h1>Gamely</h1>
+            <h1 class="text">Gamely</h1>
         </div>
         <div id="container"><!-- container 레이아웃(컨텐츠 포함) -->
             <div id="game-list"></div><!-- 게임 사이트 목록(주 컨텐츠) -->
         </div>
         <div id="footer"><!-- footer 레이아웃(하단바) -->
-            <!-- TODO : 하단 링크 더 보기 ... -->
+            <div class="division-line"></div>
+            <ul>
+                <li>
+                    <a class="text" href="https://www.youtube.com/@장경혁tv">개발자 유튜브</a>
+                </li>
+                <li>
+                    <a class="text" href="https://github.com/NewLandTV/Gamely">소스 코드</a>
+                </li>
+            </ul>
         </div>
     </div>
     <script src="index.js"></script>
