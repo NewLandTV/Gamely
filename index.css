@@ -3,14 +3,29 @@ body {
     background: linear-gradient(90deg, rgba(189, 236, 255, 1) 0%, rgba(78, 59, 247, 1) 50%, rgba(213, 128, 255, 1) 100%);
 }
 
+@font-face {
+    font-family: "KakaoBigSans-ExtraBold";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoBigSans-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+.text {
+    font-family: "KakaoBigSans-ExtraBold";
+}
+
 #wrap {
     margin: 0 auto;
     width: 90%;
 }
 
 #header {
+    background: #8bffd880;
     border: 3px solid #ebebeb;
     border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 #header > h1 {
@@ -114,4 +129,13 @@ body {
     width: 200px;
     height: 200px;
     font-size: 1.6rem;
+}
+
+.division-line {
+    margin: 60px 0px;
+    border-top: 1px solid #444444;
+}
+
+#footer {
+    margin: 60px auto;
 }
