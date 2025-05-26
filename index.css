@@ -1,6 +1,22 @@
+body {
+    background: #bdecff;
+    background: linear-gradient(90deg, rgba(189, 236, 255, 1) 0%, rgba(78, 59, 247, 1) 50%, rgba(213, 128, 255, 1) 100%);
+}
+
 #wrap {
     margin: 0 auto;
     width: 90%;
+}
+
+#header {
+    border: 3px solid #ebebeb;
+    border-radius: 10px;
+}
+
+#header > h1 {
+    margin-left: 24px;
+    color: #ecf023;
+    text-shadow: 0.2rem 0.2rem 0.25rem #867514;
 }
 
 #container {
